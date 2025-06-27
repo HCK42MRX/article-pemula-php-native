@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.article {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.article:last-child {
+  border-bottom: none;
+}
+
+.article h2 {
+  margin: 0 0 10px 0;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions a {
+  color: #007bff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.actions a.delete {
+  color: #dc3545;
+}
+
+.actions a:hover {
+  text-decoration: underline;
+}
+
+.text-muted {
+  color: #6c757d; /* Abu-abu netral */
+  font-size: 0.9em; /* Sedikit lebih kecil */
+}
+
+.read-more {
+  display: inline-block;
+  color: #0d6efd; /* warna biru elegan */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.read-more:hover {
+  color: #0a58ca; /* lebih gelap saat hover */
+  transform: translateX(2px); /* geser sedikit ke kanan */
+  text-decoration: underline;
+}
+
+.auth-button {
+  display: flex;
+  justify-content: end;
+}
+
+.btn-login {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2d6cdf;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-login:hover {
+  background-color: #1c4fb8;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-logout {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #dc3545; /* warna merah logout */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-logout:hover {
+  background-color: #b52a37;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}

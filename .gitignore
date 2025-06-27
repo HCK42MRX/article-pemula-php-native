@@ -1,0 +1,62 @@
+# =========================
+# PHP Specific
+# =========================
+*.log
+*.cache
+*.tmp
+*.bak
+
+# Error logs
+error_log
+
+# PHPStorm / VSCode / Editor junk
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Composer
+/vendor/
+/composer.lock
+
+# Node (if any frontend tools)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment / Security
+.env
+.env.local
+.env.*
+
+# Upload folder (if applicable)
+uploads/
+images/uploads/
+tmp/
+storage/
+
+# Session/cache folders
+sessions/
+cache/
+
+# Database dumps
+*.sql
+*.sqlite
+*.db
+
+# PHPUnit
+.phpunit.result.cache
+coverage/
+
+# Laravel (if using)
+bootstrap/cache/
+storage/logs/
+storage/framework/
+
+# Custom user folders (optional)
+config/config.php
